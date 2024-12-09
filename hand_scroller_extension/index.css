@@ -1,0 +1,14 @@
+video {
+    visibility: hidden; /* video 요소 숨기되 공간은 유지 */
+    position: absolute; /* 캔버스 아래로 이동 */
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  canvas {
+    display: block; /* 블록 레벨 요소로 설정 */
+    margin: 0 auto; /* 중앙 정렬 */
+    transform: scaleX(-1); /* 좌우 반전 */
+  }
